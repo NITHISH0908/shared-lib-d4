@@ -12,7 +12,7 @@ Calculator calculator = new Calculator(this)
 
 
 pipeline{
-    agent any{
+    agent any
         environment{
             APP_NAME = ${pipelineparams.appName} //this value should be coming from microservices
         }
@@ -26,11 +26,11 @@ pipeline{
                     }
                 }
             }
-        }
+        
         stage('Secondstage'){
             echo "executing the second stage"
         }
     }
-}
+
 }
 
