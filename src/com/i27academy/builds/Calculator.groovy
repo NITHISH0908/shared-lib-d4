@@ -9,16 +9,16 @@ class Calculator{
 
 
 // Addition Method
-def add(firstNumber,secondNumber)(
+def add(firstNumber,secondNumber){
     // Logical code
     return firstNumber+secondNumber
-)
+}
 
 // Multiplication method
-def multiply(firstNumber,secondNumber)(
+def multiply(firstNumber,secondNumber){
     //Logical code
     return firstNumber*secondNumber
-)
+}
 
 // Substraction Method
 
