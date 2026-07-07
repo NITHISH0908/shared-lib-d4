@@ -22,13 +22,15 @@ pipeline{
                     script{
                         echo "Printing sum of 2 numbers"
                         println calculator.add(3,4)
-                        echo "**** MicroService name is  ${APP_NAME}****"
+                        echo "**** MicroService name is : ${APP_NAME}****"
                     }
                 }
             }
         
         stage('Secondstage'){
+            steps{
             echo "executing the second stage"
+            }
         }
     }
 
